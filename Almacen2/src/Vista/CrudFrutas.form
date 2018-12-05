@@ -57,7 +57,7 @@
                                   <Component id="txtFecha" max="32767" attributes="0"/>
                                   <Component id="txtPrecio" max="32767" attributes="0"/>
                                   <Component id="txtCant" max="32767" attributes="0"/>
-                                  <Component id="jLabel1" max="32767" attributes="0"/>
+                                  <Component id="lblTitulo" max="32767" attributes="0"/>
                                   <Component id="txtCodigo" max="32767" attributes="0"/>
                                   <Component id="txtDescrip" alignment="0" max="32767" attributes="0"/>
                               </Group>
@@ -78,7 +78,7 @@
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <Component id="lblTitulo" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="lblCodigo" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -121,7 +121,7 @@
     </DimensionLayout>
   </Layout>
   <SubComponents>
-    <Component class="javax.swing.JLabel" name="jLabel1">
+    <Component class="javax.swing.JLabel" name="lblTitulo">
       <Properties>
         <Property name="text" type="java.lang.String" value="CRUD DE FRUTAS"/>
       </Properties>

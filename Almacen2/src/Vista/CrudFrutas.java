@@ -27,7 +27,7 @@ public class CrudFrutas extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel1 = new javax.swing.JLabel();
+        lblTitulo = new javax.swing.JLabel();
         lblCodigo = new javax.swing.JLabel();
         lblDescrip = new javax.swing.JLabel();
         lblCant = new javax.swing.JLabel();
@@ -48,7 +48,7 @@ public class CrudFrutas extends javax.swing.JFrame {
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel1.setText("CRUD DE FRUTAS");
+        lblTitulo.setText("CRUD DE FRUTAS");
 
         lblCodigo.setText("Codigo");
 
@@ -122,7 +122,7 @@ public class CrudFrutas extends javax.swing.JFrame {
                                     .addComponent(txtFecha)
                                     .addComponent(txtPrecio)
                                     .addComponent(txtCant)
-                                    .addComponent(jLabel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(lblTitulo, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(txtCodigo)
                                     .addComponent(txtDescrip))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -135,7 +135,7 @@ public class CrudFrutas extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(jLabel1)
+                .addComponent(lblTitulo)
                 .addGap(37, 37, 37)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(lblCodigo)
@@ -225,12 +225,12 @@ public class CrudFrutas extends javax.swing.JFrame {
     private javax.swing.JButton btnBuscar;
     private javax.swing.JButton btnGrabar;
     private javax.swing.JButton btnLimpiar;
-    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel lblCant;
     private javax.swing.JLabel lblCodigo;
     private javax.swing.JLabel lblDescrip;
     private javax.swing.JLabel lblFecha;
     private javax.swing.JLabel lblPrecio;
+    private javax.swing.JLabel lblTitulo;
     private javax.swing.JRadioButton rbSino;
     private javax.swing.JTextField txtBuscar;
     private javax.swing.JTextField txtCant;
